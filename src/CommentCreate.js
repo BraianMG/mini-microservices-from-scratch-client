@@ -14,7 +14,6 @@ const CommentCreate = ({ postId }) => {
     setContent('');
   }
 
-
   return (
     <div>
       <form onSubmit={onSubmit}>
